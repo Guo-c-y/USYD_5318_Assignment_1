@@ -11,7 +11,8 @@
 ### 环境配置
 通过以下命令安装项目依赖：
 ```bash
-pip install -r requirements.txt
+conda env create -f environment.yml -n myenv
+conda activate myenv
 ```
 
 ### 文件结构与内容
